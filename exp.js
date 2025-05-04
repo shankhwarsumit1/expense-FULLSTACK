@@ -20,7 +20,7 @@ form.addEventListener('submit',(event)=>{
 function display(obj,id){
 const ul = document.querySelector("ul");
 const li=document.createElement("li");
-li.textContent = id+"-"+obj.amount+"-"+obj.category+"-"+obj.description;
+li.textContent = id+"-"+"Rs."+obj.amount+"-"+obj.category+"-"+obj.description;
 li.style.fontSize = "1.5rem";
 li.style.margin= "2px";
 const delBtn = document.createElement("Button");
